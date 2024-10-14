@@ -1106,7 +1106,6 @@ add list=dpbr-CT address=2403:24c0::/32
 add list=dpbr-CT address=2403:2580::/32
 add list=dpbr-CT address=2403:25c0::/32
 add list=dpbr-CT address=2403:2680::/32
-add list=dpbr-CT address=2403:26c0::/32
 add list=dpbr-CT address=2403:2740::/32
 add list=dpbr-CT address=2403:2780::/32
 add list=dpbr-CT address=2403:28c0::/32
