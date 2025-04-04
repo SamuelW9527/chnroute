@@ -2019,6 +2019,7 @@ add list=dpbr-CT address=2407:ec80::/32
 add list=dpbr-CT address=2407:ecc0::/32
 add list=dpbr-CT address=2408:4000::/22
 add list=dpbr-CT address=2408:6000::/24
+add list=dpbr-CT address=2409:1000::/20
 add list=dpbr-CT address=2409:2000::/21
 add list=dpbr-CT address=2409:6000::/20
 add list=dpbr-CT address=240a:2000::/24
