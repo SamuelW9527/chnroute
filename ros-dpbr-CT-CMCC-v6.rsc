@@ -1835,7 +1835,6 @@ add list=dpbr-CT address=2406:9480::/32
 add list=dpbr-CT address=2406:94c0::/32
 add list=dpbr-CT address=2406:9780::/32
 add list=dpbr-CT address=2406:9d80::/32
-add list=dpbr-CT address=2406:9e40::/32
 add list=dpbr-CT address=2406:9e80::/32
 add list=dpbr-CT address=2406:9f80::/32
 add list=dpbr-CT address=2406:a080::/32
