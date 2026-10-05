@@ -1702,5 +1702,6 @@ add list=dpbr-CT address=2a14:7586:6104::/48
 add list=dpbr-CT address=2a14:7586:6106::/47
 add list=dpbr-CT address=2a14:7586:6108::/48
 add list=dpbr-CT address=2a14:7586:6110::/48
+add list=dpbr-CT address=2a14:7586:6113::/48
 add list=dpbr-CT address=2a14:7586:6115::/48
 add list=dpbr-CT address=2a14:7586:6300::/44
