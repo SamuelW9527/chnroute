@@ -1497,6 +1497,7 @@ add list=dpbr-CT address=2602:f92a:1305::/48
 add list=dpbr-CT address=2602:f92a:1306::/48
 add list=dpbr-CT address=2602:f92a:1310::/48
 add list=dpbr-CT address=2602:f92a:1312::/48
+add list=dpbr-CT address=2602:f92a:1320::/48
 add list=dpbr-CT address=2602:f92a:a460::/48
 add list=dpbr-CT address=2602:f92a:a462::/47
 add list=dpbr-CT address=2602:f92a:a468::/48
