@@ -1722,7 +1722,6 @@ add list=dpbr-CT address=2a12:3fc6::/46
 add list=dpbr-CT address=2a12:3fc6:4::/48
 add list=dpbr-CT address=2a12:cb41:600::/44
 add list=dpbr-CT address=2a12:cb41:1300::/44
-add list=dpbr-CT address=2a12:cb41:13f0::/44
 add list=dpbr-CT address=2a12:cb46:6000::/38
 add list=dpbr-CT address=2a12:cb46:6400::/44
 add list=dpbr-CT address=2a12:cb47:ffff::/48
