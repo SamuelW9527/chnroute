@@ -1290,7 +1290,7 @@ add list=dpbr-CT address=2406:840:2e0::/48
 add list=dpbr-CT address=2406:840:380::/47
 add list=dpbr-CT address=2406:840:3c2::/48
 add list=dpbr-CT address=2406:840:3e0::/48
-add list=dpbr-CT address=2406:840:411::/48
+add list=dpbr-CT address=2406:840:410::/47
 add list=dpbr-CT address=2406:840:420::/48
 add list=dpbr-CT address=2406:840:480::/48
 add list=dpbr-CT address=2406:840:540::/48
@@ -1442,9 +1442,7 @@ add list=dpbr-CT address=2406:840:fedc::/48
 add list=dpbr-CT address=2406:840:feed::/48
 add list=dpbr-CT address=2406:840:fef2::/47
 add list=dpbr-CT address=2406:840:fef4::/46
-add list=dpbr-CT address=2406:840:fef8::/46
-add list=dpbr-CT address=2406:840:fefc::/47
-add list=dpbr-CT address=2406:840:fefe::/48
+add list=dpbr-CT address=2406:840:fef8::/45
 add list=dpbr-CT address=2406:840:ff00::/43
 add list=dpbr-CT address=2406:3340::/32
 add list=dpbr-CT address=2406:3640:1::/48
@@ -1620,6 +1618,7 @@ add list=dpbr-CT address=2a0e:aa07:f0dc::/48
 add list=dpbr-CT address=2a0e:aa07:f0df::/48
 add list=dpbr-CT address=2a0e:b107:da0::/44
 add list=dpbr-CT address=2a0e:b107:14a0::/44
+add list=dpbr-CT address=2a0e:b107:1522::/48
 add list=dpbr-CT address=2a0e:b107:2440::/44
 add list=dpbr-CT address=2a0e:c780::/30
 add list=dpbr-CT address=2a0e:f202::/31
@@ -1657,6 +1656,7 @@ add list=dpbr-CT address=2a0f:1cc5:2680::/42
 add list=dpbr-CT address=2a0f:1cc5:3203::/48
 add list=dpbr-CT address=2a0f:1cc5:3210::/44
 add list=dpbr-CT address=2a0f:1cc5:3222::/48
+add list=dpbr-CT address=2a0f:1cc5:3500::/40
 add list=dpbr-CT address=2a0f:1cc5:3700::/43
 add list=dpbr-CT address=2a0f:1cc5:3720::/48
 add list=dpbr-CT address=2a0f:1cc5:4508::/45
@@ -1724,6 +1724,7 @@ add list=dpbr-CT address=2a12:3fc6::/46
 add list=dpbr-CT address=2a12:3fc6:4::/48
 add list=dpbr-CT address=2a12:cb41:600::/44
 add list=dpbr-CT address=2a12:cb41:1300::/44
+add list=dpbr-CT address=2a12:cb41:13f0::/44
 add list=dpbr-CT address=2a12:cb46:6000::/38
 add list=dpbr-CT address=2a12:cb46:6400::/44
 add list=dpbr-CT address=2a12:cb47:ffff::/48
