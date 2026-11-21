@@ -1030,7 +1030,6 @@ add list=dpbr-CT address=2402:7d80:8888::/48
 add list=dpbr-CT address=2402:8260:800::/40
 add list=dpbr-CT address=2402:8260:a00::/40
 add list=dpbr-CT address=2402:8260:4c00::/40
-add list=dpbr-CT address=2402:8bc0::/32
 add list=dpbr-CT address=2402:93c0::/48
 add list=dpbr-CT address=2402:93c0:20::/48
 add list=dpbr-CT address=2402:93c0:100::/48
@@ -1061,6 +1060,7 @@ add list=dpbr-CT address=2403:ffc0:1100::/40
 add list=dpbr-CT address=2403:ffc0:1200::/39
 add list=dpbr-CT address=2404:bc0:1::/48
 add list=dpbr-CT address=2404:bc0:4000::/43
+add list=dpbr-CT address=2404:bc0:4020::/44
 add list=dpbr-CT address=2404:bc0:4100::/43
 add list=dpbr-CT address=2404:bc0:4200::/43
 add list=dpbr-CT address=2404:bc0:4300::/44
@@ -1151,7 +1151,8 @@ add list=dpbr-CT address=2404:2280:20e::/48
 add list=dpbr-CT address=2404:2280:210::/46
 add list=dpbr-CT address=2404:2280:214::/48
 add list=dpbr-CT address=2404:2280:216::/47
-add list=dpbr-CT address=2404:2280:218::/46
+add list=dpbr-CT address=2404:2280:218::/47
+add list=dpbr-CT address=2404:2280:21b::/48
 add list=dpbr-CT address=2404:2280:21d::/48
 add list=dpbr-CT address=2404:2280:21e::/48
 add list=dpbr-CT address=2404:2280:221::/48
@@ -1344,7 +1345,6 @@ add list=dpbr-CT address=2406:840:9962::/48
 add list=dpbr-CT address=2406:840:9964::/48
 add list=dpbr-CT address=2406:840:9966::/47
 add list=dpbr-CT address=2406:840:996c::/48
-add list=dpbr-CT address=2406:840:9977::/48
 add list=dpbr-CT address=2406:840:e080::/44
 add list=dpbr-CT address=2406:840:e0cf::/48
 add list=dpbr-CT address=2406:840:e10f::/48
@@ -1520,8 +1520,7 @@ add list=dpbr-CT address=2602:f486:f0::/48
 add list=dpbr-CT address=2602:f919:a00::/39
 add list=dpbr-CT address=2602:f919:d00::/40
 add list=dpbr-CT address=2602:f919:fee::/47
-add list=dpbr-CT address=2602:f92a:1300::/47
-add list=dpbr-CT address=2602:f92a:1303::/48
+add list=dpbr-CT address=2602:f92a:1300::/46
 add list=dpbr-CT address=2602:f92a:1305::/48
 add list=dpbr-CT address=2602:f92a:1306::/48
 add list=dpbr-CT address=2602:f92a:1310::/48
@@ -1540,7 +1539,6 @@ add list=dpbr-CT address=2602:f9f6:402::/48
 add list=dpbr-CT address=2602:f9f6:450::/48
 add list=dpbr-CT address=2602:fa02:36::/48
 add list=dpbr-CT address=2602:fa02:58::/48
-add list=dpbr-CT address=2602:fa02:d00::/40
 add list=dpbr-CT address=2602:faa8:708::/47
 add list=dpbr-CT address=2602:faa8:70f::/48
 add list=dpbr-CT address=2602:fbda:600::/48
@@ -1550,7 +1548,8 @@ add list=dpbr-CT address=2602:fbda:660::/44
 add list=dpbr-CT address=2620:57:4004::/47
 add list=dpbr-CT address=2a04:3e00::/29
 add list=dpbr-CT address=2a05:1085::/32
-add list=dpbr-CT address=2a05:1086::/31
+add list=dpbr-CT address=2a05:1086::/33
+add list=dpbr-CT address=2a05:1087::/32
 add list=dpbr-CT address=2a05:35c1::/32
 add list=dpbr-CT address=2a05:35c2::/31
 add list=dpbr-CT address=2a06:1182::/31
@@ -1560,15 +1559,13 @@ add list=dpbr-CT address=2a06:35c6::/31
 add list=dpbr-CT address=2a06:3600:e000::/40
 add list=dpbr-CT address=2a06:9801:2ba::/48
 add list=dpbr-CT address=2a06:9801:f95::/48
-add list=dpbr-CT address=2a06:9801:1300::/40
 add list=dpbr-CT address=2a06:9801:15e3::/48
 add list=dpbr-CT address=2a06:9f81:4600::/44
 add list=dpbr-CT address=2a06:9f81:4630::/44
 add list=dpbr-CT address=2a06:a005:260::/43
 add list=dpbr-CT address=2a06:a005:280::/43
 add list=dpbr-CT address=2a06:a005:2a0::/44
-add list=dpbr-CT address=2a06:de07:f800::/38
-add list=dpbr-CT address=2a07:e000:20::/44
+add list=dpbr-CT address=2a06:de07:fa00::/39
 add list=dpbr-CT address=2a09:17c4::/31
 add list=dpbr-CT address=2a09:17c6::/32
 add list=dpbr-CT address=2a09:3f00:4600::/39
@@ -1577,7 +1574,7 @@ add list=dpbr-CT address=2a0a:d680:a31::/48
 add list=dpbr-CT address=2a0a:d680:8100::/47
 add list=dpbr-CT address=2a0a:d681:e000::/40
 add list=dpbr-CT address=2a0a:d682:d000::/36
-add list=dpbr-CT address=2a0a:d682:e000::/35
+add list=dpbr-CT address=2a0a:d682:f000::/36
 add list=dpbr-CT address=2a0a:d685:1e0::/48
 add list=dpbr-CT address=2a0a:d685:1ff::/48
 add list=dpbr-CT address=2a0a:d685:300::/40
@@ -1593,12 +1590,12 @@ add list=dpbr-CT address=2a0c:7880::/32
 add list=dpbr-CT address=2a0c:7884::/32
 add list=dpbr-CT address=2a0c:b641:571::/48
 add list=dpbr-CT address=2a0c:b641:573::/48
-add list=dpbr-CT address=2a0c:e641::/32
-add list=dpbr-CT address=2a0d:2681::/32
+add list=dpbr-CT address=2a0c:e641:8000::/33
+add list=dpbr-CT address=2a0d:2681::/33
 add list=dpbr-CT address=2a0d:2901::/32
 add list=dpbr-CT address=2a0d:88c4::/30
 add list=dpbr-CT address=2a0d:c7c7:400::/38
-add list=dpbr-CT address=2a0d:d941::/36
+add list=dpbr-CT address=2a0d:d941:800::/37
 add list=dpbr-CT address=2a0e:15c1::/32
 add list=dpbr-CT address=2a0e:15c2::/31
 add list=dpbr-CT address=2a0e:1a81::/32
@@ -1606,7 +1603,7 @@ add list=dpbr-CT address=2a0e:1a82::/32
 add list=dpbr-CT address=2a0e:1a85::/32
 add list=dpbr-CT address=2a0e:1a87::/32
 add list=dpbr-CT address=2a0e:4001:3000::/40
-add list=dpbr-CT address=2a0e:4001:9000::/36
+add list=dpbr-CT address=2a0e:4001:9000::/37
 add list=dpbr-CT address=2a0e:4005:ff10::/48
 add list=dpbr-CT address=2a0e:4005:ff20::/48
 add list=dpbr-CT address=2a0e:4005:ffd0::/48
@@ -1623,7 +1620,6 @@ add list=dpbr-CT address=2a0e:aa07:f0dc::/48
 add list=dpbr-CT address=2a0e:aa07:f0df::/48
 add list=dpbr-CT address=2a0e:b107:da0::/44
 add list=dpbr-CT address=2a0e:b107:14a0::/44
-add list=dpbr-CT address=2a0e:b107:1522::/48
 add list=dpbr-CT address=2a0e:b107:2440::/44
 add list=dpbr-CT address=2a0e:c780::/30
 add list=dpbr-CT address=2a0e:f202::/31
@@ -1673,7 +1669,7 @@ add list=dpbr-CT address=2a0f:1cc5:49f0::/48
 add list=dpbr-CT address=2a0f:1cc5:57fb::/48
 add list=dpbr-CT address=2a0f:1cc5:57fc::/47
 add list=dpbr-CT address=2a0f:1cc5:57ff::/48
-add list=dpbr-CT address=2a0f:1cc5:5801::/48
+add list=dpbr-CT address=2a0f:1cc5:5800::/47
 add list=dpbr-CT address=2a0f:1cc6:b112::/48
 add list=dpbr-CT address=2a0f:1cc6:b130::/48
 add list=dpbr-CT address=2a0f:1cc6:b210::/47
@@ -1712,20 +1708,16 @@ add list=dpbr-CT address=2a0f:6284:4c80::/43
 add list=dpbr-CT address=2a0f:6284:4ca0::/44
 add list=dpbr-CT address=2a0f:6284:4cc0::/43
 add list=dpbr-CT address=2a0f:7304::/30
-add list=dpbr-CT address=2a0f:85c1:bfe::/48
 add list=dpbr-CT address=2a0f:9400:6110::/48
 add list=dpbr-CT address=2a0f:a704::/30
 add list=dpbr-CT address=2a10:ccc0:cc1::/48
 add list=dpbr-CT address=2a10:ccc0:cc2::/48
 add list=dpbr-CT address=2a10:ccc0:ccc::/48
 add list=dpbr-CT address=2a10:fa80:13::/48
-add list=dpbr-CT address=2a10:fa81:d00::/40
-add list=dpbr-CT address=2a10:fa86::/34
 add list=dpbr-CT address=2a10:fa86:c000::/34
 add list=dpbr-CT address=2a12:3fc6::/46
 add list=dpbr-CT address=2a12:3fc6:4::/48
 add list=dpbr-CT address=2a12:cb41:1300::/44
-add list=dpbr-CT address=2a12:cb41:13f0::/44
 add list=dpbr-CT address=2a12:cb46:6000::/38
 add list=dpbr-CT address=2a12:cb46:6400::/44
 add list=dpbr-CT address=2a12:cb47:ffff::/48
@@ -1740,7 +1732,7 @@ add list=dpbr-CT address=2a13:aac4:f000::/44
 add list=dpbr-CT address=2a13:b487:1200::/44
 add list=dpbr-CT address=2a13:b487:1220::/43
 add list=dpbr-CT address=2a13:e5c0:ee02::/48
-add list=dpbr-CT address=2a14:5f00::/29
+add list=dpbr-CT address=2a14:5f04::/30
 add list=dpbr-CT address=2a14:67c1:b500::/40
 add list=dpbr-CT address=2a14:67c2:520::/48
 add list=dpbr-CT address=2a14:67c3:30::/44
@@ -1757,7 +1749,6 @@ add list=dpbr-CT address=2a14:7580:ff64::/48
 add list=dpbr-CT address=2a14:7580:ffee::/48
 add list=dpbr-CT address=2a14:7580:fff3::/48
 add list=dpbr-CT address=2a14:7581:3810::/48
-add list=dpbr-CT address=2a14:7581:5800::/40
 add list=dpbr-CT address=2a14:7583:e900::/48
 add list=dpbr-CT address=2a14:7583:efe7::/48
 add list=dpbr-CT address=2a14:7583:f411::/48
